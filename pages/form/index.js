@@ -15,8 +15,9 @@ const Form = () => {
     setQuote(response.data[0].quote);
   }, []);
 
+
   const handleSubmit = () => {
-    console.log(character + quote);
+    console.log(character + ' ' + quote);
   };
 
   return (
