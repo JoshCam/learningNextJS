@@ -15,6 +15,16 @@ const App = () => {
             <a>Forms and bootstrap</a>
           </Link>
         </li>
+        <li>
+          <Link href="/upload" className="mt-1">
+            <a>David - upload files to s3</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/upload2" className="mt-1">
+            <a>David - upload files to s3 another method (Amplify)</a>
+          </Link>
+        </li>
       </ul>
     </div>
   );
