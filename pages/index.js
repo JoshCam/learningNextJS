@@ -15,6 +15,11 @@ const App = () => {
             <a>Forms and bootstrap</a>
           </Link>
         </li>
+        <li>
+          <Link href="/file-upload" className="mt-1">
+            <a>FileUpload</a>
+          </Link>
+        </li>
       </ul>
     </div>
   );

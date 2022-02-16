@@ -34,11 +34,11 @@ const Form = () => {
             </div>
             <div className="mb-3">
               <label className="form-label">Quote</label>
-              <input
+              <textarea
                 className="form-control"
                 value={quote}
                 onChange={(e) => setQuote(e.target.value)}
-              />
+              ></textarea>
             </div>
             <div>
               <img src={apiData.image}></img>
